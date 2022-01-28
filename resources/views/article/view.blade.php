@@ -1,0 +1,9 @@
+@extends('main')
+{{--title--}}
+@section('content')
+    <p>{{$article->title}}</p>
+    <hr>
+    <p>{{$article->description}}</p>
+    <p>{{$article->article_text}}</p>
+    <hr>
+@endsection
